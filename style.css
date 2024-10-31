@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    border-bottom: solid 5px black;
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+}
+
+.HeaderDirection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.LinkList {
+    list-style-type: none;
+    display: flex;
+    gap: 10em;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+}
+
+.TertnesSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid 3px black;
+}
+
+.TertnesImage {
+    width: 55%;
+}
+
+.TertnesText {
+    width: 35%;
+}
+
+.SkoleSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid 3px black;
+}
+
+.SkoleText {
+    width: 35%;
+}
+
+.SkoleImage {
+    width: 55%;
+}
+
+.GrønnSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid 3px black;
+}
