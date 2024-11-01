@@ -61,8 +61,22 @@ section {
 }
 
 .GrønnSection {
+    border-bottom: solid 3px black;
+}
+
+.GrønnHeader {
+    padding-top: 80px;
+}
+
+.GrønnText {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: solid 3px black;
+}
+
+.GrønnImage {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
