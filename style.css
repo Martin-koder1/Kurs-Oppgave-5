@@ -67,12 +67,15 @@ section {
 
 .GrønnHeader {
     padding-top: 80px;
+    padding-left: 30px;
 }
 
 .GrønnText {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .GrønnImage {
