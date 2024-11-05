@@ -7,6 +7,18 @@ h1 {
     font-family: "Oswald", sans-serif;
 }
 
+h1:hover {
+    color: blue;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+}
+
+h2:hover {
+    color: blue;
+}
+
 header {
     border-bottom: solid 5px black;
     position: sticky;
@@ -24,6 +36,7 @@ header {
     display: flex;
     gap: 10em;
     align-items: center;
+    font-family: "Oswald", sans-serif;
 }
 
 a {
@@ -54,6 +67,8 @@ section {
 
 .TertnesImage {
     width: 55%;
+    border: solid 8px black;
+    border-radius: 0.7%;
 }
 
 .TertnesText {
@@ -69,11 +84,13 @@ section {
 }
 
 .SkoleText {
-    width: 35%;
+    width: 40%;
 }
 
 .SkoleImage {
-    width: 55%;
+    width: 49%;
+    border: solid 8px black;
+    border-radius: 0.7%;
 }
 
 .GrønnSection {
@@ -97,6 +114,21 @@ section {
 
 .TextSpacing {
     width: 45%;
+    margin-top: 0;
+}
+
+.BergenLink {
+    border: none;
+    background: none;
+    padding: 0;
+    color: blue;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.BergenLink:hover {
+    border: none;
+    font-weight: bold;
 }
 
 .GrønnImage {
@@ -104,10 +136,31 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: solid 8px black;
+    border-radius: 0.7%;
 }
 
 footer {
     background-color: lightgray;
     margin: 0;
     padding: 10px;
+}
+
+.FooterText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 20px;
+}
+
+.FooterLinks {
+    border: none;
+    background: none;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.FooterLinks:hover {
+    border: none;
 }
