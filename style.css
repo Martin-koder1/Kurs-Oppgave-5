@@ -164,3 +164,15 @@ footer {
 .FooterLinks:hover {
     border: none;
 }
+
+.TopLink {
+    border: none;
+    background: none;
+    padding: 0;
+    text-decoration: none;
+    color: blue;
+}
+
+.TopLink:hover {
+    border: none;
+}
